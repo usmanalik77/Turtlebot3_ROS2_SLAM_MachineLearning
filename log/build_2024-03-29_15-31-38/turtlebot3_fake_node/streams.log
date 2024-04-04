@@ -1,0 +1,75 @@
+[0.793s] Invoking command in '/home/usman/experiments/turtlebot3_ws2/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs:/home/usman/ros2_my_ws/install/my_robot_bringup:/home/usman/ros2_my_ws/install/my_robot_interfaces:/home/usman/ros2_my_ws/install/turtlesim_catch_them_all:/home/usman/ros2_my_ws/install/my_py_pkg:/home/usman/ros2_ws/install/my_robot_controller:/home/usman/ros2_ws/install/my_controller:/home/usman/ros2_ws/src/install/my_robot_controller:/home/usman/ros2_ws/src/install/my_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/usman/experiments/turtlebot3_ws2/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node
+[0.945s] -- The C compiler identification is GNU 11.4.0
+[1.021s] -- The CXX compiler identification is GNU 11.4.0
+[1.031s] -- Detecting C compiler ABI info
+[1.126s] -- Detecting C compiler ABI info - done
+[1.143s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.144s] -- Detecting C compile features
+[1.145s] -- Detecting C compile features - done
+[1.148s] -- Detecting CXX compiler ABI info
+[1.254s] -- Detecting CXX compiler ABI info - done
+[1.265s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.266s] -- Detecting CXX compile features
+[1.266s] -- Detecting CXX compile features - done
+[1.271s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.873s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.975s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.027s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.095s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.106s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.120s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.142s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.175s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.359s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.491s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[2.599s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.604s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.752s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.800s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.879s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.896s] -- Looking for pthread.h
+[2.994s] -- Looking for pthread.h - found
+[2.995s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.096s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.098s] -- Found Threads: TRUE  
+[3.298s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.431s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[3.465s] -- Found tf2_msgs: 0.25.5 (/opt/ros/humble/share/tf2_msgs/cmake)
+[3.962s] -- Found turtlebot3_msgs: 2.2.3 (/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[4.193s] -- Configuring done
+[4.208s] -- Generating done
+[4.210s] -- Build files have been written to: /home/usman/experiments/turtlebot3_ws2/build/turtlebot3_fake_node
+[4.227s] Invoked command in '/home/usman/experiments/turtlebot3_ws2/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs:/home/usman/ros2_my_ws/install/my_robot_bringup:/home/usman/ros2_my_ws/install/my_robot_interfaces:/home/usman/ros2_my_ws/install/turtlesim_catch_them_all:/home/usman/ros2_my_ws/install/my_py_pkg:/home/usman/ros2_ws/install/my_robot_controller:/home/usman/ros2_ws/install/my_controller:/home/usman/ros2_ws/src/install/my_robot_controller:/home/usman/ros2_ws/src/install/my_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/usman/experiments/turtlebot3_ws2/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node
+[4.230s] Invoking command in '/home/usman/experiments/turtlebot3_ws2/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs:/home/usman/ros2_my_ws/install/my_robot_bringup:/home/usman/ros2_my_ws/install/my_robot_interfaces:/home/usman/ros2_my_ws/install/turtlesim_catch_them_all:/home/usman/ros2_my_ws/install/my_py_pkg:/home/usman/ros2_ws/install/my_robot_controller:/home/usman/ros2_ws/install/my_controller:/home/usman/ros2_ws/src/install/my_robot_controller:/home/usman/ros2_ws/src/install/my_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/usman/experiments/turtlebot3_ws2/build/turtlebot3_fake_node -- -j16 -l16
+[4.292s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[18.534s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[20.970s] [100%] Built target turtlebot3_fake_node
+[21.034s] Invoked command in '/home/usman/experiments/turtlebot3_ws2/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs:/home/usman/ros2_my_ws/install/my_robot_bringup:/home/usman/ros2_my_ws/install/my_robot_interfaces:/home/usman/ros2_my_ws/install/turtlesim_catch_them_all:/home/usman/ros2_my_ws/install/my_py_pkg:/home/usman/ros2_ws/install/my_robot_controller:/home/usman/ros2_ws/install/my_controller:/home/usman/ros2_ws/src/install/my_robot_controller:/home/usman/ros2_ws/src/install/my_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/usman/experiments/turtlebot3_ws2/build/turtlebot3_fake_node -- -j16 -l16
+[21.180s] Invoking command in '/home/usman/experiments/turtlebot3_ws2/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs:/home/usman/ros2_my_ws/install/my_robot_bringup:/home/usman/ros2_my_ws/install/my_robot_interfaces:/home/usman/ros2_my_ws/install/turtlesim_catch_them_all:/home/usman/ros2_my_ws/install/my_py_pkg:/home/usman/ros2_ws/install/my_robot_controller:/home/usman/ros2_ws/install/my_controller:/home/usman/ros2_ws/src/install/my_robot_controller:/home/usman/ros2_ws/src/install/my_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/usman/experiments/turtlebot3_ws2/build/turtlebot3_fake_node
+[21.224s] -- Install configuration: ""
+[21.227s] -- Execute custom install script
+[21.231s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[21.287s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[21.338s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[21.393s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[21.445s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[21.499s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[21.552s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[21.607s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[21.622s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[21.635s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[21.652s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[21.667s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[21.682s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[21.697s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[21.713s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[21.728s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[21.743s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[21.758s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[21.809s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[21.821s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.835s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.849s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[21.861s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[21.872s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[21.894s] Invoked command in '/home/usman/experiments/turtlebot3_ws2/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs:/home/usman/ros2_my_ws/install/my_robot_bringup:/home/usman/ros2_my_ws/install/my_robot_interfaces:/home/usman/ros2_my_ws/install/turtlesim_catch_them_all:/home/usman/ros2_my_ws/install/my_py_pkg:/home/usman/ros2_ws/install/my_robot_controller:/home/usman/ros2_ws/install/my_controller:/home/usman/ros2_ws/src/install/my_robot_controller:/home/usman/ros2_ws/src/install/my_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/usman/experiments/turtlebot3_ws2/build/turtlebot3_fake_node

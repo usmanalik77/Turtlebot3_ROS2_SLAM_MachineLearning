@@ -1,0 +1,43 @@
+[1.011s] Invoking command in '/home/usman/experiments/turtlebot3_ws2/build/turtlebot3_teleop': PYTHONPATH=/home/usman/experiments/turtlebot3_ws2/build/turtlebot3_teleop/prefix_override:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/usman/experiments/turtlebot3_ws2/build/turtlebot3_teleop/build --no-deps install_data
+[1.239s] running develop
+[1.239s] /home/usman/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.239s] !!
+[1.239s] 
+[1.239s]         ********************************************************************************
+[1.239s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.239s]         Instead, use pypa/build, pypa/installer or other
+[1.239s]         standards-based tools.
+[1.239s] 
+[1.239s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.239s]         ********************************************************************************
+[1.239s] 
+[1.239s] !!
+[1.239s]   easy_install.initialize_options(self)
+[1.258s] /home/usman/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.259s] !!
+[1.259s] 
+[1.259s]         ********************************************************************************
+[1.259s]         Please avoid running ``setup.py`` directly.
+[1.259s]         Instead, use pypa/build, pypa/installer or other
+[1.259s]         standards-based tools.
+[1.259s] 
+[1.259s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.259s]         ********************************************************************************
+[1.259s] 
+[1.259s] !!
+[1.259s]   self.initialize_options()
+[1.367s] running egg_info
+[1.376s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[1.376s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[1.376s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[1.376s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[1.376s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[1.395s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.396s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[1.405s] running build_ext
+[1.405s] Creating /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3-teleop.egg-link (link to .)
+[1.406s] Installing teleop_keyboard script to /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[1.406s] 
+[1.406s] Installed /home/usman/experiments/turtlebot3_ws2/build/turtlebot3_teleop
+[1.406s] running install_data
+[1.486s] Invoked command in '/home/usman/experiments/turtlebot3_ws2/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/usman/experiments/turtlebot3_ws2/build/turtlebot3_teleop/prefix_override:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/usman/experiments/turtlebot3_ws2/build/turtlebot3_teleop/build --no-deps install_data

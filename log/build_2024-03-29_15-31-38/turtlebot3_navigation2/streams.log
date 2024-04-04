@@ -1,0 +1,48 @@
+[0.149s] Invoking command in '/home/usman/experiments/turtlebot3_ws2/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/usman/ros2_my_ws/install/turtlesim_catch_them_all:/home/usman/ros2_my_ws/install/my_py_pkg:/home/usman/ros2_ws/install/my_robot_controller:/home/usman/ros2_ws/install/my_controller:/home/usman/ros2_ws/src/install/my_robot_controller:/home/usman/ros2_ws/src/install/my_controller:/opt/ros/humble /usr/bin/cmake /home/usman/experiments/turtlebot3_ws2/src/turtlebot3/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2
+[0.204s] -- The C compiler identification is GNU 11.4.0
+[0.272s] -- The CXX compiler identification is GNU 11.4.0
+[0.278s] -- Detecting C compiler ABI info
+[0.334s] -- Detecting C compiler ABI info - done
+[0.340s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.340s] -- Detecting C compile features
+[0.342s] -- Detecting C compile features - done
+[0.344s] -- Detecting CXX compiler ABI info
+[0.416s] -- Detecting CXX compiler ABI info - done
+[0.423s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.423s] -- Detecting CXX compile features
+[0.423s] -- Detecting CXX compile features - done
+[0.427s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.782s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.844s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.949s] -- Configuring done
+[0.951s] -- Generating done
+[0.952s] -- Build files have been written to: /home/usman/experiments/turtlebot3_ws2/build/turtlebot3_navigation2
+[0.956s] Invoked command in '/home/usman/experiments/turtlebot3_ws2/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/usman/ros2_my_ws/install/turtlesim_catch_them_all:/home/usman/ros2_my_ws/install/my_py_pkg:/home/usman/ros2_ws/install/my_robot_controller:/home/usman/ros2_ws/install/my_controller:/home/usman/ros2_ws/src/install/my_robot_controller:/home/usman/ros2_ws/src/install/my_controller:/opt/ros/humble /usr/bin/cmake /home/usman/experiments/turtlebot3_ws2/src/turtlebot3/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2
+[0.957s] Invoking command in '/home/usman/experiments/turtlebot3_ws2/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/usman/ros2_my_ws/install/turtlesim_catch_them_all:/home/usman/ros2_my_ws/install/my_py_pkg:/home/usman/ros2_ws/install/my_robot_controller:/home/usman/ros2_ws/install/my_controller:/home/usman/ros2_ws/src/install/my_robot_controller:/home/usman/ros2_ws/src/install/my_controller:/opt/ros/humble /usr/bin/cmake --build /home/usman/experiments/turtlebot3_ws2/build/turtlebot3_navigation2 -- -j16 -l16
+[0.986s] Invoked command in '/home/usman/experiments/turtlebot3_ws2/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/usman/ros2_my_ws/install/turtlesim_catch_them_all:/home/usman/ros2_my_ws/install/my_py_pkg:/home/usman/ros2_ws/install/my_robot_controller:/home/usman/ros2_ws/install/my_controller:/home/usman/ros2_ws/src/install/my_robot_controller:/home/usman/ros2_ws/src/install/my_controller:/opt/ros/humble /usr/bin/cmake --build /home/usman/experiments/turtlebot3_ws2/build/turtlebot3_navigation2 -- -j16 -l16
+[1.008s] Invoking command in '/home/usman/experiments/turtlebot3_ws2/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/usman/ros2_my_ws/install/turtlesim_catch_them_all:/home/usman/ros2_my_ws/install/my_py_pkg:/home/usman/ros2_ws/install/my_robot_controller:/home/usman/ros2_ws/install/my_controller:/home/usman/ros2_ws/src/install/my_robot_controller:/home/usman/ros2_ws/src/install/my_controller:/opt/ros/humble /usr/bin/cmake --install /home/usman/experiments/turtlebot3_ws2/build/turtlebot3_navigation2
+[1.015s] -- Install configuration: ""
+[1.016s] -- Execute custom install script
+[1.016s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[1.024s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[1.033s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[1.044s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[1.053s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[1.063s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[1.074s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[1.084s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[1.094s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[1.103s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[1.112s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[1.121s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[1.131s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[1.141s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[1.148s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[1.158s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[1.168s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[1.178s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[1.188s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[1.197s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[1.207s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[1.216s] -- Symlinking: /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[1.228s] Invoked command in '/home/usman/experiments/turtlebot3_ws2/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/usman/ros2_my_ws/install/turtlesim_catch_them_all:/home/usman/ros2_my_ws/install/my_py_pkg:/home/usman/ros2_ws/install/my_robot_controller:/home/usman/ros2_ws/install/my_controller:/home/usman/ros2_ws/src/install/my_robot_controller:/home/usman/ros2_ws/src/install/my_controller:/opt/ros/humble /usr/bin/cmake --install /home/usman/experiments/turtlebot3_ws2/build/turtlebot3_navigation2

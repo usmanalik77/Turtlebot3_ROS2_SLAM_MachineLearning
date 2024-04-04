@@ -1,0 +1,53 @@
+[2.543s] Invoking command in '/home/usman/experiments/turtlebot3_ws2/build/turtlebot3_example': AMENT_PREFIX_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/usman/experiments/turtlebot3_ws2/build/turtlebot3_example/prefix_override:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_example/lib/python3.10/site-packages:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/usman/experiments/turtlebot3_ws2/build/turtlebot3_example/build --no-deps install_data
+[4.154s] running develop
+[4.155s] /home/usman/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[4.156s] !!
+[4.156s] 
+[4.156s]         ********************************************************************************
+[4.157s]         Please avoid running ``setup.py`` and ``easy_install``.
+[4.157s]         Instead, use pypa/build, pypa/installer or other
+[4.158s]         standards-based tools.
+[4.158s] 
+[4.159s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[4.159s]         ********************************************************************************
+[4.160s] 
+[4.160s] !!
+[4.161s]   easy_install.initialize_options(self)
+[4.199s] /home/usman/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[4.199s] !!
+[4.200s] 
+[4.200s]         ********************************************************************************
+[4.201s]         Please avoid running ``setup.py`` directly.
+[4.201s]         Instead, use pypa/build, pypa/installer or other
+[4.202s]         standards-based tools.
+[4.202s] 
+[4.203s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[4.203s]         ********************************************************************************
+[4.204s] 
+[4.204s] !!
+[4.205s]   self.initialize_options()
+[4.458s] running egg_info
+[4.459s] creating turtlebot3_example.egg-info
+[4.481s] writing turtlebot3_example.egg-info/PKG-INFO
+[4.482s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[4.482s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[4.483s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[4.484s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[4.484s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[4.527s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[4.528s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[4.552s] running build_ext
+[4.552s] Creating /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[4.554s] Installing turtlebot3_obstacle_detection script to /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_example/lib/turtlebot3_example
+[4.554s] Installing turtlebot3_patrol_client script to /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_example/lib/turtlebot3_example
+[4.555s] Installing turtlebot3_patrol_server script to /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_example/lib/turtlebot3_example
+[4.556s] Installing turtlebot3_position_control script to /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_example/lib/turtlebot3_example
+[4.557s] 
+[4.557s] Installed /home/usman/experiments/turtlebot3_ws2/build/turtlebot3_example
+[4.558s] running install_data
+[4.558s] creating /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_example/share/ament_index
+[4.559s] creating /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_example/share/ament_index/resource_index
+[4.559s] creating /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_example/share/ament_index/resource_index/packages
+[4.560s] copying resource/turtlebot3_example -> /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_example/share/ament_index/resource_index/packages
+[4.560s] copying package.xml -> /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_example/share/turtlebot3_example
+[4.605s] Invoked command in '/home/usman/experiments/turtlebot3_ws2/build/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/usman/experiments/turtlebot3_ws2/build/turtlebot3_example/prefix_override:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_example/lib/python3.10/site-packages:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/usman/experiments/turtlebot3_ws2/build/turtlebot3_example/build --no-deps install_data

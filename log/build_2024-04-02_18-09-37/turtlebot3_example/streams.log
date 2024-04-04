@@ -1,0 +1,46 @@
+[2.230s] Invoking command in '/home/usman/experiments/turtlebot3_ws2/build/turtlebot3_example': CMAKE_PREFIX_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs:/home/usman/experiments/turtlebot3_ws2/install/tb3_autonomy:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_simulations:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_bringup:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_node:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_gazebo:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_description:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_cartographer:/home/usman/experiments/turtlebot3_ws2/install/hls_lfcd_lds_driver:/home/usman/experiments/turtlebot3_ws2/install/dynamixel_sdk_examples:/home/usman/experiments/turtlebot3_ws2/install/dynamixel_sdk_custom_interfaces:/home/usman/experiments/turtlebot3_ws2/install/dynamixel_sdk:/home/usman/experiments/turtlebot3_ws/install/turtlebot3:/home/usman/experiments/turtlebot3_ws/install/turtlebot3_simulations:/home/usman/experiments/turtlebot3_ws/install/turtlebot3_bringup:/home/usman/experiments/turtlebot3_ws/install/turtlebot3_node:/home/usman/experiments/turtlebot3_ws/install/turtlebot3_navigation2:/home/usman/experiments/turtlebot3_ws/install/turtlebot3_fake_node:/home/usman/experiments/turtlebot3_ws/install/turtlebot3_msgs:/home/usman/experiments/turtlebot3_ws/install/turtlebot3_gazebo:/home/usman/experiments/turtlebot3_ws/install/turtlebot3_description:/home/usman/experiments/turtlebot3_ws/install/turtlebot3_cartographer:/home/usman/experiments/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/usman/experiments/turtlebot3_ws/install/dynamixel_sdk_examples:/home/usman/experiments/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/usman/experiments/turtlebot3_ws/install/dynamixel_sdk:/home/usman/ros2_my_ws/install/my_robot_bringup:/home/usman/ros2_my_ws/install/my_robot_interfaces LD_LIBRARY_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs/lib:/home/usman/experiments/turtlebot3_ws2/install/dynamixel_sdk_custom_interfaces/lib:/home/usman/experiments/turtlebot3_ws2/install/dynamixel_sdk/lib:/home/usman/experiments/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/usman/experiments/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/usman/experiments/turtlebot3_ws/install/dynamixel_sdk/lib:/home/usman/ros2_my_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/usman/experiments/turtlebot3_ws2/build/turtlebot3_example/prefix_override:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/usman/experiments/turtlebot3_ws2/build/turtlebot3_example/build --no-deps install_data
+[2.796s] running develop
+[2.797s] /home/usman/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.797s] !!
+[2.798s] 
+[2.798s]         ********************************************************************************
+[2.798s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.798s]         Instead, use pypa/build, pypa/installer or other
+[2.798s]         standards-based tools.
+[2.799s] 
+[2.799s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.799s]         ********************************************************************************
+[2.799s] 
+[2.799s] !!
+[2.799s]   easy_install.initialize_options(self)
+[2.834s] /home/usman/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.835s] !!
+[2.835s] 
+[2.835s]         ********************************************************************************
+[2.835s]         Please avoid running ``setup.py`` directly.
+[2.835s]         Instead, use pypa/build, pypa/installer or other
+[2.835s]         standards-based tools.
+[2.835s] 
+[2.835s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.835s]         ********************************************************************************
+[2.835s] 
+[2.836s] !!
+[2.836s]   self.initialize_options()
+[3.048s] running egg_info
+[3.067s] writing turtlebot3_example.egg-info/PKG-INFO
+[3.067s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[3.067s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[3.067s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[3.067s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[3.103s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[3.104s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[3.132s] running build_ext
+[3.132s] Creating /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[3.133s] Installing turtlebot3_obstacle_detection script to /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_example/lib/turtlebot3_example
+[3.133s] Installing turtlebot3_patrol_client script to /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_example/lib/turtlebot3_example
+[3.134s] Installing turtlebot3_patrol_server script to /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_example/lib/turtlebot3_example
+[3.134s] Installing turtlebot3_position_control script to /home/usman/experiments/turtlebot3_ws2/install/turtlebot3_example/lib/turtlebot3_example
+[3.134s] 
+[3.134s] Installed /home/usman/experiments/turtlebot3_ws2/build/turtlebot3_example
+[3.134s] running install_data
+[3.174s] Invoked command in '/home/usman/experiments/turtlebot3_ws2/build/turtlebot3_example' returned '0': CMAKE_PREFIX_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs:/home/usman/experiments/turtlebot3_ws2/install/tb3_autonomy:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_simulations:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_bringup:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_node:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_navigation2:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_fake_node:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_gazebo:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_description:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_cartographer:/home/usman/experiments/turtlebot3_ws2/install/hls_lfcd_lds_driver:/home/usman/experiments/turtlebot3_ws2/install/dynamixel_sdk_examples:/home/usman/experiments/turtlebot3_ws2/install/dynamixel_sdk_custom_interfaces:/home/usman/experiments/turtlebot3_ws2/install/dynamixel_sdk:/home/usman/experiments/turtlebot3_ws/install/turtlebot3:/home/usman/experiments/turtlebot3_ws/install/turtlebot3_simulations:/home/usman/experiments/turtlebot3_ws/install/turtlebot3_bringup:/home/usman/experiments/turtlebot3_ws/install/turtlebot3_node:/home/usman/experiments/turtlebot3_ws/install/turtlebot3_navigation2:/home/usman/experiments/turtlebot3_ws/install/turtlebot3_fake_node:/home/usman/experiments/turtlebot3_ws/install/turtlebot3_msgs:/home/usman/experiments/turtlebot3_ws/install/turtlebot3_gazebo:/home/usman/experiments/turtlebot3_ws/install/turtlebot3_description:/home/usman/experiments/turtlebot3_ws/install/turtlebot3_cartographer:/home/usman/experiments/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/usman/experiments/turtlebot3_ws/install/dynamixel_sdk_examples:/home/usman/experiments/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/usman/experiments/turtlebot3_ws/install/dynamixel_sdk:/home/usman/ros2_my_ws/install/my_robot_bringup:/home/usman/ros2_my_ws/install/my_robot_interfaces LD_LIBRARY_PATH=/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_msgs/lib:/home/usman/experiments/turtlebot3_ws2/install/dynamixel_sdk_custom_interfaces/lib:/home/usman/experiments/turtlebot3_ws2/install/dynamixel_sdk/lib:/home/usman/experiments/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/usman/experiments/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/usman/experiments/turtlebot3_ws/install/dynamixel_sdk/lib:/home/usman/ros2_my_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/usman/experiments/turtlebot3_ws2/build/turtlebot3_example/prefix_override:/home/usman/experiments/turtlebot3_ws2/install/turtlebot3_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/usman/experiments/turtlebot3_ws2/build/turtlebot3_example/build --no-deps install_data

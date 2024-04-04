@@ -1,0 +1,44 @@
+[3.593s] Invoking command in '/home/usman/experiments/turtlebot3_ws2/build/tb3_sim': PYTHONPATH=/home/usman/experiments/turtlebot3_ws2/build/tb3_sim/prefix_override:/home/usman/experiments/turtlebot3_ws2/install/tb3_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/usman/experiments/turtlebot3_ws2/build/tb3_sim/build --no-deps install_data
+[4.239s] running develop
+[4.240s] /home/usman/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[4.241s] !!
+[4.241s] 
+[4.241s]         ********************************************************************************
+[4.241s]         Please avoid running ``setup.py`` and ``easy_install``.
+[4.241s]         Instead, use pypa/build, pypa/installer or other
+[4.241s]         standards-based tools.
+[4.242s] 
+[4.242s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[4.242s]         ********************************************************************************
+[4.242s] 
+[4.242s] !!
+[4.242s]   easy_install.initialize_options(self)
+[4.295s] /home/usman/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[4.296s] !!
+[4.296s] 
+[4.297s]         ********************************************************************************
+[4.297s]         Please avoid running ``setup.py`` directly.
+[4.298s]         Instead, use pypa/build, pypa/installer or other
+[4.298s]         standards-based tools.
+[4.298s] 
+[4.298s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[4.298s]         ********************************************************************************
+[4.298s] 
+[4.298s] !!
+[4.298s]   self.initialize_options()
+[4.624s] running egg_info
+[4.652s] writing tb3_sim.egg-info/PKG-INFO
+[4.653s] writing dependency_links to tb3_sim.egg-info/dependency_links.txt
+[4.653s] writing entry points to tb3_sim.egg-info/entry_points.txt
+[4.653s] writing requirements to tb3_sim.egg-info/requires.txt
+[4.653s] writing top-level names to tb3_sim.egg-info/top_level.txt
+[4.708s] reading manifest file 'tb3_sim.egg-info/SOURCES.txt'
+[4.709s] writing manifest file 'tb3_sim.egg-info/SOURCES.txt'
+[4.749s] running build_ext
+[4.749s] Creating /home/usman/experiments/turtlebot3_ws2/install/tb3_sim/lib/python3.10/site-packages/tb3-sim.egg-link (link to .)
+[4.751s] Installing amcl_init_pose_publisher script to /home/usman/experiments/turtlebot3_ws2/install/tb3_sim/lib/tb3_sim
+[4.751s] 
+[4.751s] Installed /home/usman/experiments/turtlebot3_ws2/build/tb3_sim
+[4.751s] running install_data
+[4.751s] copying config/sim_house_locations.yaml -> /home/usman/experiments/turtlebot3_ws2/install/tb3_sim/share/tb3_sim/config/
+[5.161s] Invoked command in '/home/usman/experiments/turtlebot3_ws2/build/tb3_sim' returned '0': PYTHONPATH=/home/usman/experiments/turtlebot3_ws2/build/tb3_sim/prefix_override:/home/usman/experiments/turtlebot3_ws2/install/tb3_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/usman/experiments/turtlebot3_ws2/build/tb3_sim/build --no-deps install_data
